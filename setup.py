@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="operate_excel",
-    version="0.1",
+    version="0.1.1",
     author="Tao Yang",
     description="Excel operation method",
     author_email="1724805202@qq.com",
@@ -21,5 +21,7 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "Framework :: Django :: 1.11",
+        "Development Status :: 5 - Production/Stable",
     ],
 )
